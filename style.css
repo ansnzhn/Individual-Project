@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+header {
+    background-color: #5c63bd;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #403b86;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #3a3075;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+footer {
+    background-color: #3c3692;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
